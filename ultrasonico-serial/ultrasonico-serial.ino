@@ -45,4 +45,3 @@ void loop()
   Serial.println("cm");             // Escribe un mensaje pero agrega un salto de linea al final (Serial.println)
   delay(200);                       // Un retardo para que no llene tan rapido la ventana
 }
-
