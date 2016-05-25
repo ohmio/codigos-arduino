@@ -22,7 +22,7 @@
    pinMode(ledPin, OUTPUT);       // Initialize LED pin
    pinMode(rxPin, INPUT);
    pinMode(txPin, OUTPUT);
-   Serial.begin(4800);
+   Serial.begin(9600);
    for (int i=0;i<300;i++){       // Initialize a buffer for received data
      linea[i]=' ';
    }   
